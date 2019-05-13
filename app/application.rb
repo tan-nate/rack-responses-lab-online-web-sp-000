@@ -7,6 +7,8 @@ class Application
  
     current_time = Time.now
     
+    binding.pry
+    
     num_1 = Kernel.rand(1..20)
     num_2 = Kernel.rand(1..20)
     num_3 = Kernel.rand(1..20)
