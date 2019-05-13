@@ -5,7 +5,7 @@ class Application
   def call(env)
     resp = Rack::Response.new
  
-    current_time = 
+    current_time = Time.now
     
     num_1 = Kernel.rand(1..20)
     num_2 = Kernel.rand(1..20)
